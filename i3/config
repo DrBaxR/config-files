@@ -188,7 +188,7 @@ default_border pixel 1
 default_floating_border pixel 1
 
 # Polybar
-exec_always --no-startup-id /home/baxr/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Restore backgrounds
 exec_always --no-startup-id nitrogen --restore
