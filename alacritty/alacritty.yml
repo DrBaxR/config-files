@@ -25,29 +25,29 @@ font:
     family: Iosevka
   size: 10.0
 
-# Colors (LunariaEclipse https://gogh-co.github.io/Gogh/)
+# Colors (hybrid: http://terminal.sexy)
 colors:
   primary:
-    background: '#1f1f1f'
-    foreground: '#dedede'
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
   normal:
-    black:   '#323f46'
-    red:     '#83615b'
-    green:   '#7f9781'
-    yellow:  '#a69875'
-    blue:    '#53516f'
-    magenta: '#856880'
-    cyan:    '#7d96b2'
-    white:   '#c9cdd7'
+    black:   '#282a2e'
+    red:     '#a54242'
+    green:   '#8c9440'
+    yellow:  '#de935f'
+    blue:    '#5f819d'
+    magenta: '#85678f'
+    cyan:    '#5e8d87'
+    white:   '#707880'
   bright:
-    black:   '#3d4950'
-    red:     '#ba9088'
-    green:   '#bedbc1'
-    yellow:  '#f1dfb4'
-    blue:    '#767495'
-    magenta: '#be9cb8'
-    cyan:    '#bcdbff'
-    white:   '#dfe2ed'
+    black:   '#373b41'
+    red:     '#cc6666'
+    green:   '#b5bd68'
+    yellow:  '#f0c674'
+    blue:    '#71a2be'
+    magenta: '#b294bb'
+    cyan:    '#8abeb7'
+    white:   '#c5c8c6'
 
 # Live reload when this file is changed
 live_config_reload: true
