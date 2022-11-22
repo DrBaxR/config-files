@@ -28,8 +28,8 @@ font:
 # Colors (LunariaEclipse https://gogh-co.github.io/Gogh/)
 colors:
   primary:
-    background: '#323f46'
-    foreground: '#c9cdd7'
+    background: '#1f1f1f'
+    foreground: '#dedede'
   normal:
     black:   '#323f46'
     red:     '#83615b'
