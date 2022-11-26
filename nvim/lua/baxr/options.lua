@@ -27,7 +27,6 @@ local options = {
     cursorline = true,
     number = true,
     relativenumber = true,
-    relativenumber = false,
     numberwidth = 4,
     signcolumn = "yes",
     wrap = false,
