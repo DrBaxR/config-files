@@ -181,7 +181,7 @@ bindsym $mod+r mode "resize"
 
 # Window gaps 
 gaps inner 10
-gaps outer 10
+# gaps outer 10
 
 # Hide window title bar
 default_border pixel 1
