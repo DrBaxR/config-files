@@ -13,3 +13,4 @@ alias egrep='egrep --color=auto'
 # Convenience
 alias ll='ls -alh'
 alias v='nvim'
+alias spm='sudo pacman'
