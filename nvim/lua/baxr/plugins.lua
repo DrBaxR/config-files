@@ -34,4 +34,7 @@ return require('packer').startup(function(use)
     -- required (?) plugins
     use "nvim-lua/popup.nvim"
     use "nvim-lua/plenary.nvim" 
+
+    -- colorscheme
+    use 'folke/tokyonight.nvim'
 end)
