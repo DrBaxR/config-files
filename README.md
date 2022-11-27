@@ -10,7 +10,11 @@ that contains (some of) the things that I use:
      - xorg
      - xorg-xinit
      - xclip
+     - arandr
      - i3-gaps
+     - rofi
+     - libnotify
+     - dunst
 2. **Fonts**:
      - ttc-iosevka
      - iosevka-nerd
@@ -27,5 +31,5 @@ that contains (some of) the things that I use:
 ## TODO:
  - Make the `install.sh` script
  - Configure *rofi*
- - configure *dunst*
+ - Configure *dunst*
  - Set up **LSP** for Neovim
