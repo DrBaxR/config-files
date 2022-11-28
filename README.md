@@ -32,4 +32,5 @@ that contains (some of) the things that I use:
  - Make the `install.sh` script
  - Configure *rofi*
  - Configure *dunst*
+ - configure *zsh* plugins
  - Set up **LSP** for Neovim
