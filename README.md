@@ -28,8 +28,20 @@ that contains (some of) the things that I use:
      - base-devel
      - git
 
+## Neovim
+The plugin manager I use is [packer](https://github.com/wbthomason/packer.nvim), so that needs to be installed in order to have the plugins work:
+
+```sh
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+```
+
+Other than that, there are some language servers that also need to be installed:
+ - [Lua](https://github.com/sumneko/lua-language-server)
+
 ## TODO:
  - Make the `install.sh` script
  - Configure *rofi*
  - Configure *dunst*
  - Set up **LSP** for Neovim
+ - Split Neovim LSP related stuff in separate files
