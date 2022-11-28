@@ -43,6 +43,6 @@ Other than that, there are some language servers that also need to be installed:
  - Make the `install.sh` script
  - Configure *rofi*
  - Configure *dunst*
- - configure *zsh* plugins
+ - Configure *zsh* plugins
  - Set up **LSP** for Neovim
  - Split Neovim LSP related stuff in separate files
