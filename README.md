@@ -44,5 +44,4 @@ Other than that, there are some language servers that also need to be installed:
  - Configure *rofi*
  - Configure *dunst*
  - Configure *zsh* plugins
- - Set up **LSP** for Neovim
  - Split Neovim LSP related stuff in separate files
