@@ -123,12 +123,3 @@ cmp.setup {
     native_menu = false,
   },
 }
-
--- TODO: maybe move this to a separate file
--- Advertise nvim-cmp capabilities to the LSP's
-local capabilities = require('cmp_nvim_lsp').default_capabilities()
-
--- Lua LSP
-require'lspconfig'.sumneko_lua.setup {
-    capabilities = capabilities,
-}

@@ -44,4 +44,4 @@ Other than that, there are some language servers that also need to be installed:
  - Configure *rofi*
  - Configure *dunst*
  - Configure *zsh* plugins
- - Split Neovim LSP related stuff in separate files
+ - Look for more cool LSP functionalities for keymaps
