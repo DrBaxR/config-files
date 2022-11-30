@@ -133,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/baxr/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-commentary"] = {
+    loaded = true,
+    path = "/home/baxr/.local/share/nvim/site/pack/packer/start/vim-commentary",
+    url = "https://github.com/tpope/vim-commentary"
   }
 }
 

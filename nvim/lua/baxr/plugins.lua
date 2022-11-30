@@ -51,4 +51,7 @@ return require('packer').startup(function(use)
 
     -- lsp
     use 'neovim/nvim-lspconfig' -- configurations for Nvim LSP
+
+    -- comment
+    use 'tpope/vim-commentary' -- use 'gcc'/'gc' with selection to comment line(s)
 end)
