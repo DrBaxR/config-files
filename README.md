@@ -13,8 +13,10 @@ that contains (some of) the things that I use:
      - arandr
      - i3-gaps
      - rofi
+     - nitrogen
      - libnotify
      - dunst
+     - network-manager-applet
 2. **Fonts**:
      - ttc-iosevka
      - iosevka-nerd

@@ -190,6 +190,9 @@ default_floating_border pixel 1
 # Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
+# Network manager applet
+exec_always --no-startup-id nm-applet
+
 # Restore backgrounds
 exec_always --no-startup-id nitrogen --restore
 
