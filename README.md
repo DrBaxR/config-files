@@ -23,7 +23,11 @@ that contains (some of) the things that I use:
      - noto-fonts
      - noto-fonts-cjk
      - noto-fonts-emoji
-3. **Development and other**:
+3. **Performance (for Turbo Boost)**:
+     - turbostat
+     - cpupower
+     - cpupower-gui
+4. **Development and other**:
      - alacritty
      - zsh
      - base

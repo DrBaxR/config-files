@@ -34,11 +34,13 @@ end
 
 -- On server attach
 M.on_attach = function(client, bufnr)
+    local bufopts = { noremap = true, silent = true, buffer = bufnr }
+
     -- enable completion triggered by <c-x><c-o>
     vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 
     diagnostics_keymaps()
-    lsp_keymaps({ noremap = true, silent = true, buffer = bufnr })
+    lsp_keymaps(bufopts)
 end
 
 M.setup = function()
@@ -64,9 +66,7 @@ M.setup = function()
         underline = true,
         severity_sort = true,
         float = {
-            focusable = false,
             style = "minimal",
-            border = "rounded",
             source = "always",
             header = "",
             prefix = "",
@@ -74,10 +74,6 @@ M.setup = function()
     }
 
     vim.diagnostic.config(config)
-
-    vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover)
-
-    vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(vim.lsp.handlers.signature_help)
 end
 
 return M
