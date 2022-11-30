@@ -12,16 +12,16 @@ vim.cmd [[
 -- Use a protected call so we don't error out on first use
 local status_ok, packer = pcall(require, "packer")
 if not status_ok then
-  return
+    return
 end
 
 -- Have packer use a popup window
 packer.init {
-  display = {
-    open_fn = function()
-      return require("packer.util").float { border = "rounded" }
-    end,
-  },
+    display = {
+        open_fn = function()
+            return require("packer.util").float { border = "rounded" }
+        end,
+    },
 }
 
 
@@ -31,7 +31,7 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
 
     -- actual plugins
-    -- required (?) plugins
+    -- plugins other plugins depend on
     use "nvim-lua/popup.nvim"
     use "nvim-lua/plenary.nvim"
 
@@ -54,4 +54,10 @@ return require('packer').startup(function(use)
 
     -- comment
     use 'tpope/vim-commentary' -- use 'gcc'/'gc' with selection to comment line(s)
+
+    -- telescope
+    use {
+        'nvim-telescope/telescope.nvim', tag = '0.1.0',
+        requires = { { 'nvim-lua/plenary.nvim' } }
+    }
 end)

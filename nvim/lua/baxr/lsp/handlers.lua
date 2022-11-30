@@ -23,7 +23,7 @@ local function lsp_keymaps(bufopts)
     keymap('n', '<leader>rn', lsp_buf.rename, bufopts) -- rename
     keymap('n', '<leader>ca', lsp_buf.code_action, bufopts) -- show all current code actions
     keymap('n', 'gr', lsp_buf.references, bufopts) -- show all references
-    keymap('n', '<leader>f', function() lsp_buf.format { async = true } end, bufopts) -- format file
+    keymap('n', '<leader>fm', function() lsp_buf.format { async = true } end, bufopts) -- format file
 
     -- mappings I don't understand
     --    keymap('n', '<leader>wa', lsp_buf.add_workspace_folder, bufopts)
