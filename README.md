@@ -52,3 +52,4 @@ Other than that, there are some language servers that also need to be installed:
  - Configure *dunst*
  - Configure *zsh* plugins
  - Look for more cool LSP functionalities for keymaps
+ - *Tmux* config
