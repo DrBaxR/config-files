@@ -1,1 +1,5 @@
-/etc/zsh/zshenv
+export ZDOTDIR=$HOME/.config/zsh 	# Where the .zshrc file is
+export TERMINAL=alacritty 		# Preferred terminal emulator
+export EDITOR=nvim 			# Preferred text editor
+
+export TERM="xterm-256color" 		# Better colors for tmux
