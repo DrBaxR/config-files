@@ -16,7 +16,5 @@ alias v='nvim'
 alias spm='sudo pacman'
 alias gs='git status'
 
-alias luamake=/luamake
-
 # Path variable
 export PATH="$HOME/.config/lsp/lua-language-server/bin:$PATH"
