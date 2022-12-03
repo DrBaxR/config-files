@@ -34,7 +34,6 @@ that contains (some of) the things that I use:
      - base-devel
      - git
      - ripgrep
-     - tmux
 
 ## Neovim
 The plugin manager I use is [packer](https://github.com/wbthomason/packer.nvim), so that needs to be installed in order to have the plugins work:
@@ -52,4 +51,4 @@ Other than that, there are some language servers that also need to be installed:
  - Configure *rofi*
  - Configure *dunst*
  - Configure *zsh* plugins
- - Look for more cool LSP functionalities for keymaps
+ - Do some cool stuff with *fzf*
