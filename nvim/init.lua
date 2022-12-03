@@ -3,8 +3,7 @@ require "baxr.options"
 require "baxr.keymaps"
 require "baxr.plugins"
 require "baxr.cmp"
-
--- LSP
+require "baxr.treesitter"
 require "baxr.lsp"
 
 -- Colorscheme
