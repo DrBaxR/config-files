@@ -34,6 +34,7 @@ that contains (some of) the things that I use:
      - base-devel
      - git
      - ripgrep
+     - fzf
 
 ## Neovim
 The plugin manager I use is [packer](https://github.com/wbthomason/packer.nvim), so that needs to be installed in order to have the plugins work:
