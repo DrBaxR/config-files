@@ -53,3 +53,4 @@ Other than that, there are some language servers that also need to be installed:
  - Configure *dunst*
  - Configure *zsh* plugins
  - Do some cool stuff with *fzf*
+ - Use an automatic LSP manager
