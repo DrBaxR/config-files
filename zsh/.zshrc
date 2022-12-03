@@ -15,6 +15,7 @@ alias ll='ls -alh'
 alias v='nvim'
 alias spm='sudo pacman'
 alias gs='git status'
+alias tm='tmux new -Asmain'
 
 # Path variable
 export PATH="$HOME/.config/lsp/lua-language-server/bin:$PATH"
