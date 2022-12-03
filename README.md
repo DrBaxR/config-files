@@ -17,6 +17,7 @@ that contains (some of) the things that I use:
      - libnotify
      - dunst
      - network-manager-applet
+     - blugon
 2. **Fonts**:
      - ttc-iosevka
      - iosevka-nerd
@@ -54,3 +55,5 @@ Other than that, there are some language servers that also need to be installed:
  - Configure *zsh* plugins
  - Do some cool stuff with *fzf*
  - Use an automatic LSP manager
+ - `.gitignore`
+ - Tmux underline in Neovim

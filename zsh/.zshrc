@@ -17,5 +17,6 @@ alias spm='sudo pacman'
 alias gs='git status'
 alias tm='tmux new -Asmain'
 
-# Path variable
-export PATH="$HOME/.config/lsp/lua-language-server/bin:$PATH"
+# Plugins
+source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
