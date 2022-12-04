@@ -50,7 +50,6 @@ Other than that, there are some language servers that also need to be installed:
 
 ## TODO:
  - Make the `install.sh` script
- - Configure *rofi*
  - Configure *dunst*
  - Configure *zsh* plugins
  - Do some cool stuff with *fzf*
