@@ -10,9 +10,17 @@ local lsp_flags = {
 }
 
 -- Lua LSP
-require('lspconfig').sumneko_lua.setup {
+require("lspconfig").sumneko_lua.setup {
     on_attach = handlers.on_attach,
     capabilities = capabilities,
     flags = lsp_flags,
     settings = require('baxr.lsp.settings.sumneko_lua')
+}
+
+-- Rust LSP
+require("lspconfig").rust_analyzer.setup {
+    on_attach = handlers.on_attach,
+    capabilities = capabilities,
+    flags = lsp_flags
+    -- add settings here when needed
 }
