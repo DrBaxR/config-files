@@ -5,3 +5,5 @@ export TERM="xterm-256color" 		# Better colors for tmux
 
 # Path variable entries
 export PATH="$HOME/.scripts:$PATH"                              # custom scripts
+export PATH="$HOME/.cargo/env:$PATH"                            # rust
+
