@@ -104,6 +104,16 @@ _G.packer_plugins = {
     path = "/home/baxr/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "/home/baxr/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason.nvim"] = {
+    loaded = true,
+    path = "/home/baxr/.local/share/nvim/site/pack/packer/start/mason.nvim",
+    url = "https://github.com/williamboman/mason.nvim"
+  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/home/baxr/.local/share/nvim/site/pack/packer/start/nvim-cmp",

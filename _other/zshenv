@@ -4,5 +4,4 @@ export EDITOR=nvim 			        # Preferred text editor
 export TERM="xterm-256color" 		# Better colors for tmux
 
 # Path variable entries
-export PATH="$HOME/.config/lsp/lua-language-server/bin:$PATH"   # lua lsp
 export PATH="$HOME/.scripts:$PATH"                              # custom scripts

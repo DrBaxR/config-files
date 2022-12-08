@@ -50,6 +50,8 @@ return require('packer').startup(function(use)
     use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
     -- lsp
+    use 'williamboman/mason.nvim' -- lsp manager
+    use 'williamboman/mason-lspconfig.nvim' -- lsp config for mason
     use 'neovim/nvim-lspconfig' -- configurations for Nvim LSP
 
     -- comment

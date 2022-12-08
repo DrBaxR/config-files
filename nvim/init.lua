@@ -4,6 +4,7 @@ require "baxr.keymaps"
 require "baxr.plugins"
 require "baxr.cmp"
 require "baxr.treesitter"
+require "baxr.mason"
 require "baxr.lsp"
 
 -- Colorscheme
