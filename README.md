@@ -45,9 +45,6 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-Other than that, there are some language servers that also need to be installed:
- - [Lua](https://github.com/sumneko/lua-language-server)
-
 ## TODO:
  - Make the `install.sh` script
  - Configure *dunst*
