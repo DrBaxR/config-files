@@ -18,7 +18,7 @@ local function lsp_keymaps(bufopts)
     keymap('n', 'gD', lsp_buf.declaration, bufopts) -- go to declaration
     keymap('n', 'gd', lsp_buf.definition, bufopts) -- go to definition
     keymap('n', 'K', lsp_buf.hover, bufopts) -- hover cursor location
-    keymap('n', '<C-k>', lsp_buf.signature_help, bufopts) -- signature help
+    keymap('i', '<C-k>', lsp_buf.signature_help, bufopts) -- signature help
     keymap('n', '<leader>D', lsp_buf.type_definition, bufopts) -- type definition
     keymap('n', '<leader>rn', lsp_buf.rename, bufopts) -- rename
     keymap('n', '<leader>ca', lsp_buf.code_action, bufopts) -- show all current code actions
