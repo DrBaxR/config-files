@@ -9,5 +9,8 @@ return {
                 [vim.fn.stdpath("config") .. "/lua"] = true,
             },
         },
+        completion = {
+            callSnippet = "Replace"
+        }
     },
 }

@@ -63,6 +63,11 @@ return require('packer').startup(function(use)
         requires = { { 'nvim-lua/plenary.nvim' } }
     }
 
-    -- Treesitter
+    -- treesitter
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+
+    -- utils
+    use { "windwp/nvim-autopairs", config = function()
+        require("nvim-autopairs").setup {}
+    end }
 end)
