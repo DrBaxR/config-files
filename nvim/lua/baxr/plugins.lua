@@ -67,7 +67,15 @@ return require('packer').startup(function(use)
     use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
     -- utils
+    -- autopairs
     use { "windwp/nvim-autopairs", config = function()
         require("nvim-autopairs").setup {}
     end }
+    -- nvim tree
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        },
+    }
 end)
