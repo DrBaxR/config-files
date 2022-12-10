@@ -1,4 +1,4 @@
--- NOTE: You need to install packer for the plugins
+-- NOTE: You need to install pac"er for the plugins
 local fn = vim.fn
 
 -- Autocommand that reloads neovim whenever you save the plugins.lua file
@@ -9,7 +9,7 @@ vim.cmd [[
   augroup end
 ]]
 
--- Use a protected call so we don't error out on first use
+-- Use a protected call so we don"t error out on first use
 local status_ok, packer = pcall(require, "packer")
 if not status_ok then
     return
@@ -26,9 +26,9 @@ packer.init {
 
 
 -- Plugins go here
-return require('packer').startup(function(use)
+return require("packer").startup(function(use)
     -- packer is required
-    use 'wbthomason/packer.nvim'
+    use "wbthomason/packer.nvim"
 
     -- actual plugins
     -- plugins other plugins depend on
@@ -36,7 +36,7 @@ return require('packer').startup(function(use)
     use "nvim-lua/plenary.nvim"
 
     -- colorscheme
-    use 'folke/tokyonight.nvim'
+    use "folke/tokyonight.nvim"
 
     -- cmp plugins
     use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -50,33 +50,32 @@ return require('packer').startup(function(use)
     use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
     -- lsp
-    use 'williamboman/mason.nvim' -- lsp manager
-    use 'williamboman/mason-lspconfig.nvim' -- lsp config for mason
-    use 'neovim/nvim-lspconfig' -- configurations for Nvim LSP
+    use "williamboman/mason.nvim" -- lsp manager
+    use "williamboman/mason-lspconfig.nvim" -- lsp config for mason
+    use "neovim/nvim-lspconfig" -- configurations for Nvim LSP
 
     -- comment
-    use 'tpope/vim-commentary' -- use 'gcc'/'gc' with selection to comment line(s)
+    use "tpope/vim-commentary" -- use "gcc"/"gc" with selection to comment line(s)
 
     -- telescope
     use {
-        'nvim-telescope/telescope.nvim', tag = '0.1.0',
-        requires = { { 'nvim-lua/plenary.nvim' } }
+        "nvim-telescope/telescope.nvim", tag = "0.1.0",
+        requires = { { "nvim-lua/plenary.nvim" } }
     }
 
     -- treesitter
-    use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+    use { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" }
 
     -- utils
-    -- autopairs
     use { "windwp/nvim-autopairs", config = function()
         require("nvim-autopairs").setup {}
     end }
-    -- nvim tree
     use {
-        'nvim-tree/nvim-tree.lua',
+        "nvim-tree/nvim-tree.lua",
         requires = {
-            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+            "nvim-tree/nvim-web-devicons", -- optional, for file icons
         },
-        tag = 'nightly' -- optional, updated every week. (see issue #1193)
+        tag = "nightly" -- optional, updated every week. (see issue #1193)
     }
+    use "lewis6991/gitsigns.nvim"
 end)
