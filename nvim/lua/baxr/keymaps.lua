@@ -15,6 +15,7 @@ vim.api.nvim_set_keymap("n", "<C-k>", "<C-w>k", opts)
 vim.api.nvim_set_keymap("n", "<C-l>", "<C-w>l", opts)
 
 vim.api.nvim_set_keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
+vim.api.nvim_set_keymap("n", "<leader>bd", ":bdelete<cr>", opts)
 
 -- telescope
 local builtin = require('telescope.builtin')

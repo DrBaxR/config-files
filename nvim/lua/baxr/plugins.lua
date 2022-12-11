@@ -78,4 +78,5 @@ return require("packer").startup(function(use)
         tag = "nightly" -- optional, updated every week. (see issue #1193)
     }
     use "lewis6991/gitsigns.nvim"
+    use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
 end)
