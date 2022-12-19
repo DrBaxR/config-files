@@ -15,7 +15,12 @@ alias ll='ls -alh'
 alias v='nvim'
 alias spm='sudo pacman'
 alias gs='git status'
-alias tm='tmux new -Asmain'
+
+# Scripts
+for script in `ls $HOME/.scripts`
+do 
+    source $script
+done
 
 # Plugins
 source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
