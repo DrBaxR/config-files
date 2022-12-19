@@ -29,6 +29,17 @@ vim.keymap.set('n', '<leader>fr', builtin.lsp_references, {})
 vim.api.nvim_set_keymap("n", "<S-l>", ":bnext<CR>", opts)
 vim.api.nvim_set_keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
+-- toggle term
+vim.keymap.set('n', '<leader>t', ':ToggleTerm<CR>', opts)
+function _G.set_terminal_keymaps()
+  local term_opts = {buffer = 0}
+  vim.keymap.set('t', '<esc>', [[<C-\><C-n>]], term_opts)
+  vim.keymap.set('t', 'jk', [[<C-\><C-n>]], term_opts)
+end
+
+-- if you only want these mappings for toggle term use term://*toggleterm#* instead
+vim.cmd('autocmd! TermOpen term://* lua set_terminal_keymaps()')
+
 -- INSERT mode keymaps
 
 -- VISUAL mode keymaps

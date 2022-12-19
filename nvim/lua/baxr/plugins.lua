@@ -79,4 +79,7 @@ return require("packer").startup(function(use)
     }
     use "lewis6991/gitsigns.nvim"
     use { 'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons' }
+    use { "akinsho/toggleterm.nvim", tag = '*', config = function()
+        require("toggleterm").setup()
+    end }
 end)
