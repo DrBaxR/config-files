@@ -48,8 +48,4 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ## TODO:
  - Make the `install.sh` script
  - Configure *dunst*
- - Configure *zsh* plugins
- - Do some cool stuff with *fzf*
- - Use an automatic LSP manager
- - `.gitignore`
  - Tmux underline in Neovim
